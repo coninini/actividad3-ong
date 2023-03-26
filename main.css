@@ -1,0 +1,44 @@
+.navbar  a{
+    color: black !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+}
+
+
+.dropdown-item{
+    position: relative;
+    width: auto;
+}
+.dropdown-item:hover{
+    position: relative;
+    width: auto;
+}
+
+.navbar .navbar-toggler{
+    border-color: aqua;
+    
+}
+.navbar a:hover{
+    background-color: #ff8400;
+    border-radius:3px;
+    color: white !important;
+}
+
+.card{
+    margin-top: 200px;
+    height: 300px;
+    width: 300px;
+    border-radius: 0%;
+    margin-left: 20px;
+}
+
+.btn {
+    color: rgb(192, 111, 35) !important;
+    position: relative !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    
+}
+
+.card-body {
+    width: 100px ;
+}
