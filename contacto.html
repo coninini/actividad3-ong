@@ -77,47 +77,61 @@
     </header>
 
     <main>
-
-
-        <div class="container">
-
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner" style="margin-top: 30px;">
-                    <div class="carousel-item active">
-                        <img src="img/ADOPTA A UN PELUDO.png" class="d-block w-100" alt="" style="height: 600px;">
-                    </div>
-                    <div class="carousel-item">
-                        <a href="perros.html">
-                            <img src="img/perross.jpg" class="d-block w-100" style="height: 600px;" alt="...">
-                        </a>
-
-                    </div>
-                    <div class="carousel-item">
-                        <a href="gatos.html">
-                            <img src="img/gatoss.jpg" class="d-block w-100" alt="..." style="height: 600px;">
-                        </a>
-
+        <div class="container"
+            style="width: 900px; margin-left: 100px; margin-top: 50px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4 position-relative" style="width: 350px;">
+                    <label for="validationTooltip01" class="form-label">First name</label>
+                    <input type="text" class="form-control" id="validationTooltip01" value="" placeholder="Nombre"
+                        required>
+                    <div class="valid-tooltip">
+                        Looks good!
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+                <div class="col-md-4 position-relative"
+                    style="width: 350px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <label for="validationTooltip02" class="form-label">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip02" value="" placeholder="Apellido"
+                        required>
+                    <div class="valid-tooltip">
+                        Looks good!
+                    </div>
+                </div>
+                <br>
+                <div class="col-md-6"
+                    style="width: 700px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="mb-3"
+                    style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <label for="exampleFormControlTextarea1" class="form-label">Consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Consulta"
+                        style="width: 700px; height: 100spx;"></textarea>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit"
+                        style="color: white !important; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;">Enviar</button>
+                </div>
+            </form>
+            <center>
+
+                <div class="card"
+                    style="width: 315px;margin-top: -330px; margin-left: 790px; height: 360px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+                    <div class="card-body" style="width:300px;">
+                        <h5 class="card-title">Adopta</h5>
+                        <p class="card-text">
+                            <a href="perros.html">
+                                <img src="img/perross.jpg" style="width: 130px; height: 130px; border-radius: 7px;">
+                            </a>
+                            <br>
+                            <a href="gatos.html">
+                                <img src="img/gatoss.jpg" style="width: 130px; height: 130px; margin-top: 20px; border-radius: 7px;">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </center>
 
 
         </div>
